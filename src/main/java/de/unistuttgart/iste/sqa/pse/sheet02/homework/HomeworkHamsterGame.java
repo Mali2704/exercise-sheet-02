@@ -3,8 +3,8 @@ package de.unistuttgart.iste.sqa.pse.sheet02.homework;
 /**
  * Describe the class HomeworkHamsterGame here.
  * 
- * @author (Your name)
- * @version (a version number or a date)
+ * @author (Mehmet Ali Onmaz)
+ * @version (05.11.2021)
  */
 public class HomeworkHamsterGame extends InternalHomeworkHamsterGame {
 
@@ -35,23 +35,74 @@ public class HomeworkHamsterGame extends InternalHomeworkHamsterGame {
 		paule.turnLeft();
 		paule.turnLeft();
 
-		// You can remove this line
-		paule.write("I do not know how to continue:'(");
-
 		// Move to the second grain
-		// TODO:implement
+		paule.move();
+		paule.move();
+		paule.move();
+		paule.move();
+		paule.move();
 
 		// Pick up the second grain
-		// TODO:implement
+		paule.pickGrain();
 
-		// Add further steps (comment + code) to collect all grains!
-		// TODO:implement
-
+		// Move to the third grain
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
+		
+		// Pick up third grain
+		paule.pickGrain();
+		
+		//Move to the fourth grain
+		paule.turnLeft();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		
+		//Pick up fourth grain
+		paule.pickGrain();
+		
+		//Move to the cave
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.turnLeft();
+		paule.move();
+		paule.move();
+		paule.move();
+		
+		
 		// Pick up grains in the cave
-		// TODO:implement
+		paule.pickGrain();
+		paule.pickGrain();
+		paule.pickGrain();
 
 		// Put down all grains in the cave
-		// TODO:implement
+		paule.putGrain();
+		paule.putGrain();
+		paule.putGrain();
+		paule.putGrain();
+		paule.putGrain();
+		paule.putGrain();
+		paule.putGrain();
 
 	}
 }
